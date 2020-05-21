@@ -1,0 +1,67 @@
+input[type=text] , select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#button{
+  background-color: green;
+  text-align: center;
+  border-radius: 12px;
+  padding: 12px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Courier New"
+}
+#button:hover{
+  background-color: teal;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.listheading {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+ol li{
+  color: darkgray;
+  font-family: "Courier New"
+}
+ul li{
+  color: darkgray;
+  font-family: "Courier New"
+}
+p,div{
+ font-family:"Courier New";
+}
+.link:hover{
+  color: teal;
+}
+.heading{
+  text-align: center;
+  font-size: 100px;
+  color: black;
+  font-family: "Garamond";
+  padding: 40px;
+}
+#goto{
+  font-size: 30px;
+  font-weight: bolder;
+h1,h2,h3{
+  font-weight: bold;
+  font-family: "Courier New";
+}
+
+p::selection{
+  background-color: yellow;
+}

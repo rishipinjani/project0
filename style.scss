@@ -1,0 +1,18 @@
+$size: 40px;
+$color: "darkgray";
+div{
+  font-family: "Courier New"
+  p{
+    font-size: $size;
+    color: $color;
+  }
+}
+%label{
+  font-family: "Courier New";
+  font-style: oblique;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.label1{
+  @extend %label
+}
